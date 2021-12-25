@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+ body{
+     font-family: Google Sans,Roboto,HelveticaNeue,Arial,sans-serif; 
+     padding: 5%;
+ }
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+h2{
+	font-size: 1.3rem;
+    font-weight: 500;
+    color:#444;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.sub{
+	font-size: 1.3rem;
+    font-weight: 500;
+    color:#444;
+    letter-spacing: 1px;
+	margin-bottom: 35px;
+	
+}
+
+p{
+	font-size: 1.5rem;
+    font-weight: 600;
+    color:#444;
+    letter-spacing: 1px;
+	margin-bottom: 35px;
+}
+i{
+	cursor: pointer;
+	color:black;
+}

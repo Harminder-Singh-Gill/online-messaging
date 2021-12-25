@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Google Sans,Roboto,HelveticaNeue,Arial,sans-serif; 
+    padding: 50px;
+    background-color:white;
+}
+
+.title h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#444;
+    letter-spacing: 1px;
+}
+
+.title{
+    width: 35px;
+    min-width: 28em;
+    line-height: 1.8;
+    text-align:center;
+    margin: 0% auto;
+    padding:0px 0px 50px 0px;
+}
+
+.login{
+    display: grid;
+    padding: 35px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 1px #777;
+    border-radius: 12px;
+    width: 35px;
+    min-width: 28em;
+    line-height: 1.8;
+    margin: 0% auto;
+}
+
+.login-input{
+    width: 100%;
+    height:90%;
+    margin-bottom: 20px;
+}
+
+.btn-cont{
+	  width: 35%;
+	  margin: 0% auto;
+}
+
+.btn{
+	width:100%;
+    margin: 0% auto;
+    font-weight: 600;
+    padding: 1em 0.5em;
+    border-radius: 8px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    background-color: rgb(10, 102, 194);
+    color:white;
+    box-shadow: none;
+    text-align:center;
+}
+
+.btn:hover{
+	width:100%;
+    margin: 0% auto;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 1em 0.5em;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    background-color:rgb(8, 71, 133);
+    color:  whitesmoke;
+    text-align:center;
+}
+
+.signup a{
+	    width: 100%;
+	    font-weight: 600;
+	    margin-bottom: 13px;
+	    text-decoration: none;
+        color:rgb(10, 102, 194);
+        margin-left:5px;
+}
+
+.signup label{
+    width: 100%;
+    margin-bottom: 13px;
+    color: #444;
+    font-weight: 600;
+}
